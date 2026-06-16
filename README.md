@@ -7,30 +7,24 @@ This project shows the currently playing track from AIMP in a browser overlay fo
 
 The overlay updates automatically every 30 seconds.
 
+Tested on Windows, using
+- Python 3.10 - 3.14
+- AIMP v5.40
+
 ## Preview
 
 ![Now Playing Preview](image.png)
 
-## Requirements
-
-- AIMP player installed and running
-- OBS Studio
-- Windows (start.bat is used to run the overlay server/script)
-
 ## Setup
 
-### 1. Configure path
-Open start.bat and change the path to your project or script location.
+1. Put everything into one folder, open console there
+2. Create venv using `python -m venv venv`
+3. Activate venv using `venv\Scripts\Activate`
+4. Install requierments using `pip install -r requirements.txt`
 
-This is required for the overlay to work correctly.
+Open AIMP player and then start through bat
 
-### 2. Start AIMP
-Launch AIMP and start playing music.
-
-### 3. Run start script
-Open start.bat
-
-A local URL will be generated after startup.
+A local URL will be generated after startup, running on `http://127.0.0.1:5000`
 
 ### 4. Add to OBS
 - Open OBS Studio
