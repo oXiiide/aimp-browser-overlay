@@ -1,4 +1,4 @@
 @echo off
-cd /d "C:\Users\Danil\Documents\Projects\Code\AIMP Now Playing"
+cd /d "%~dp0"
 call venv\Scripts\activate.bat
 start /MIN python server.py
