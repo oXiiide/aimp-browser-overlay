@@ -20,7 +20,7 @@ Tested on Windows, using
 1. Put everything into one folder, open console there
 2. Create venv using `python -m venv venv`
 3. Activate venv using `venv\Scripts\Activate`
-4. Install requierments using `pip install -r requirements.txt`
+4. Install requirements using `pip install -r requirements.txt`
 
 Open AIMP player and then start through bat
 
