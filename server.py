@@ -43,7 +43,7 @@ def update_nowplaying():
                     f.write(f"{artist}\n{title}")
 
         except Exception as e:
-            print("Ошибка:", e)
+            print("Error:", e)
         time.sleep(10)
 
 @app.route("/")
